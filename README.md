@@ -63,7 +63,7 @@ cd boreal-docs
 git init -b main
 git add .
 git commit -m "Initial docs site"
-git remote add origin https://github.com/YOURNAME/boreal-docs.git
+git remote add origin https://github.com/BorealCodeforge/boreal-docs.git
 git push -u origin main
 ```
 
@@ -76,7 +76,7 @@ The first `git push` runs the Action, which builds the site and pushes it to the
 `gh-pages` branch. Your docs go live at:
 
 ```
-https://YOURNAME.github.io/boreal-docs/
+https://BorealCodeforge.github.io/boreal-docs/
 ```
 
 Finally, update `site_url` in `mkdocs.yml` and the Discord links to your real URLs.

@@ -1,8 +1,7 @@
 site_name: Boreal Codeforge Docs
 site_description: Documentation for Boreal Codeforge FiveM resources — Code. Craft. Create.
 site_author: Boreal Codeforge
-# Set this to your real docs URL once the GitHub Pages site is live:
-site_url: https://YOURNAME.github.io/boreal-docs/
+site_url: https://borealcodeforge.github.io/boreal-docs/
 
 theme:
   name: material
