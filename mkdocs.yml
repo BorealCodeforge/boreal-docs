@@ -81,6 +81,15 @@ nav:
 
 extra:
   social:
+    - icon: fontawesome/solid/cart-shopping
+      link: https://boreal-codeforge.tebex.io
+      name: Tebex Store
     - icon: fontawesome/brands/discord
-      link: https://discord.gg/YOURINVITE
-      name: Discord
+      link: https://discord.com/invite/QA7nnEF2Wr
+      name: Discord (Support)
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@BorealCodeforge-FiveMScripts
+      name: YouTube
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/snackcity
+      name: "Partner: Snack City"

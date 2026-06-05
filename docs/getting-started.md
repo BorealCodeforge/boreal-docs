@@ -50,6 +50,12 @@ not need to select anything manually at upload.
 
 ## Support
 
-- Open a ticket in our Discord.
+- Open a ticket in our [Discord](https://discord.com/invite/QA7nnEF2Wr).
 - Please include: framework (ESX/QBCore), server artifact version, the console
   error, and your relevant `config.lua` values.
+
+## Links
+
+- 🛒 [Tebex Store](https://boreal-codeforge.tebex.io)
+- 💬 [Support Discord](https://discord.com/invite/QA7nnEF2Wr)
+- ▶️ [YouTube](https://www.youtube.com/@BorealCodeforge-FiveMScripts)

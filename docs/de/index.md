@@ -18,7 +18,7 @@ zweisprachig (EN/DE), Escrow-ready und aufeinander abgestimmt.
 
 ## Brauchst du Hilfe?
 
-Eröffne ein Ticket in unserem Discord und gib an: Framework (ESX/QBCore),
+Eröffne ein Ticket in unserem [Discord](https://discord.com/invite/QA7nnEF2Wr) und gib an: Framework (ESX/QBCore),
 Server-Artifact-Version, die Konsolen-Fehlermeldung und die relevanten
 `config.lua`-Werte.
 

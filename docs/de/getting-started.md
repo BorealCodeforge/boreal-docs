@@ -50,6 +50,12 @@ werden verschlüsselt — beim Upload musst du nichts manuell auswählen.
 
 ## Support
 
-- Eröffne ein Ticket in unserem Discord.
+- Eröffne ein Ticket in unserem [Discord](https://discord.com/invite/QA7nnEF2Wr).
 - Bitte angeben: Framework (ESX/QBCore), Server-Artifact-Version, die
   Konsolen-Fehlermeldung und die relevanten `config.lua`-Werte.
+
+## Links
+
+- 🛒 [Tebex Store](https://boreal-codeforge.tebex.io)
+- 💬 [Support-Discord](https://discord.com/invite/QA7nnEF2Wr)
+- ▶️ [YouTube](https://www.youtube.com/@BorealCodeforge-FiveMScripts)

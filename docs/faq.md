@@ -68,7 +68,7 @@ Frequently asked questions about Boreal Codeforge resources.
 ## Support & licensing
 
 ??? question "How do I get support?"
-    Open a ticket in our Discord. Include: framework, server artifact version, the
+    Open a ticket in our [Discord](https://discord.com/invite/QA7nnEF2Wr). Include: framework, server artifact version, the
     console error, and the relevant `config.lua` values.
 
 ??? question "Can I use this on multiple servers?"

@@ -18,7 +18,7 @@ escrow-ready, and built to fit together.
 
 ## Need help?
 
-Open a ticket in our Discord and include your framework (ESX/QBCore), server
+Open a ticket in our [Discord](https://discord.com/invite/QA7nnEF2Wr) and include your framework (ESX/QBCore), server
 artifact version, the console error, and the relevant `config.lua` values.
 
 !!! tip "Two languages"

@@ -71,7 +71,7 @@ Häufige Fragen zu den Boreal-Codeforge-Resourcen.
 ## Support & Lizenz
 
 ??? question "Wie bekomme ich Support?"
-    Eröffne ein Ticket in unserem Discord. Gib an: Framework,
+    Eröffne ein Ticket in unserem [Discord](https://discord.com/invite/QA7nnEF2Wr). Gib an: Framework,
     Server-Artifact-Version, die Konsolen-Fehlermeldung und die relevanten
     `config.lua`-Werte.
 
