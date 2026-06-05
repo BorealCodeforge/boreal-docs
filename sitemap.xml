@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://borealcodeforge.github.io/boreal-docs/</loc>
+        <lastmod>2026-06-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://borealcodeforge.github.io/boreal-docs/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://borealcodeforge.github.io/boreal-docs/de/"/>
+    </url>
+    <url>
+        <loc>https://borealcodeforge.github.io/boreal-docs/boreal-core/</loc>
+        <lastmod>2026-06-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://borealcodeforge.github.io/boreal-docs/boreal-core/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://borealcodeforge.github.io/boreal-docs/de/boreal-core/"/>
+    </url>
+    <url>
+        <loc>https://borealcodeforge.github.io/boreal-docs/boreal-payphone-robbery/</loc>
+        <lastmod>2026-06-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://borealcodeforge.github.io/boreal-docs/boreal-payphone-robbery/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://borealcodeforge.github.io/boreal-docs/de/boreal-payphone-robbery/"/>
+    </url>
+    <url>
+        <loc>https://borealcodeforge.github.io/boreal-docs/config-reference/</loc>
+        <lastmod>2026-06-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://borealcodeforge.github.io/boreal-docs/config-reference/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://borealcodeforge.github.io/boreal-docs/de/config-reference/"/>
+    </url>
+    <url>
+        <loc>https://borealcodeforge.github.io/boreal-docs/faq/</loc>
+        <lastmod>2026-06-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://borealcodeforge.github.io/boreal-docs/faq/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://borealcodeforge.github.io/boreal-docs/de/faq/"/>
+    </url>
+    <url>
+        <loc>https://borealcodeforge.github.io/boreal-docs/getting-started/</loc>
+        <lastmod>2026-06-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://borealcodeforge.github.io/boreal-docs/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="de" href="https://borealcodeforge.github.io/boreal-docs/de/getting-started/"/>
+    </url>
+    <url>
+        <loc>https://borealcodeforge.github.io/boreal-docs/de/</loc>
+        <lastmod>2026-06-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://borealcodeforge.github.io/boreal-docs/de/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://borealcodeforge.github.io/boreal-docs/"/>
+    </url>
+    <url>
+        <loc>https://borealcodeforge.github.io/boreal-docs/de/boreal-core/</loc>
+        <lastmod>2026-06-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://borealcodeforge.github.io/boreal-docs/de/boreal-core/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://borealcodeforge.github.io/boreal-docs/boreal-core/"/>
+    </url>
+    <url>
+        <loc>https://borealcodeforge.github.io/boreal-docs/de/boreal-payphone-robbery/</loc>
+        <lastmod>2026-06-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://borealcodeforge.github.io/boreal-docs/de/boreal-payphone-robbery/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://borealcodeforge.github.io/boreal-docs/boreal-payphone-robbery/"/>
+    </url>
+    <url>
+        <loc>https://borealcodeforge.github.io/boreal-docs/de/config-reference/</loc>
+        <lastmod>2026-06-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://borealcodeforge.github.io/boreal-docs/de/config-reference/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://borealcodeforge.github.io/boreal-docs/config-reference/"/>
+    </url>
+    <url>
+        <loc>https://borealcodeforge.github.io/boreal-docs/de/faq/</loc>
+        <lastmod>2026-06-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://borealcodeforge.github.io/boreal-docs/de/faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://borealcodeforge.github.io/boreal-docs/faq/"/>
+    </url>
+    <url>
+        <loc>https://borealcodeforge.github.io/boreal-docs/de/getting-started/</loc>
+        <lastmod>2026-06-05</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="de" href="https://borealcodeforge.github.io/boreal-docs/de/getting-started/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://borealcodeforge.github.io/boreal-docs/getting-started/"/>
+    </url>
+</urlset>
