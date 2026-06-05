@@ -69,11 +69,11 @@ git push -u origin main
 
 **3. Enable GitHub Pages**
 
-In the repo: **Settings → Pages → Build and deployment → Source: "Deploy from a
-branch" → Branch: `gh-pages` / root → Save.**
+In the repo: **Settings → Pages → Build and deployment → Source: "GitHub
+Actions".** (This is the default for new repos — leave it as is.)
 
-The first `git push` runs the Action, which builds the site and pushes it to the
-`gh-pages` branch. Your docs go live at:
+The first `git push` runs the Action, which builds the site and deploys it via
+the official GitHub Pages pipeline. Your docs go live at:
 
 ```
 https://BorealCodeforge.github.io/boreal-docs/
