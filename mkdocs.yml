@@ -38,10 +38,10 @@ plugins:
       languages:
         - locale: en
           default: true
-          name: English
+          name: EN
           build: true
         - locale: de
-          name: Deutsch
+          name: DE
           build: true
           nav_translations:
             Home: Start
