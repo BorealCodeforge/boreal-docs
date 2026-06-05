@@ -1,0 +1,16 @@
+{#-
+  Boreal Codeforge override: render the language switcher as one button per
+  language instead of Material's default dropdown.
+-#}
+{% if config.extra.alternate %}
+  <nav class="md-header__option bcf-lang-buttons" aria-label="Language">
+    {% for alt in config.extra.alternate %}
+      <a
+        href="{{ alt.link | url }}"
+        hreflang="{{ alt.lang }}"
+        class="bcf-lang-btn"
+        data-lang="{{ alt.lang }}"
+      >{{ alt.name }}</a>
+    {% endfor %}
+  </nav>
+{% endif %}

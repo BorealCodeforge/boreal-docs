@@ -5,6 +5,7 @@ site_url: https://borealcodeforge.github.io/boreal-docs/
 
 theme:
   name: material
+  custom_dir: overrides
   language: en
   logo: assets/logo.png
   favicon: assets/favicon.png
@@ -28,6 +29,9 @@ theme:
 
 extra_css:
   - stylesheets/boreal.css
+
+extra_javascript:
+  - javascripts/lang.js
 
 plugins:
   - search
