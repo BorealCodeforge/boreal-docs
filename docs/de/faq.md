@@ -34,16 +34,6 @@ Häufige Fragen zu den Boreal-Codeforge-Resourcen.
     `boreal_payphone_robbery`). Ansonsten ist die Reihenfolge egal — Addons
     registrieren sich selbst.
 
-??? question "Beim Upload kommt \"unexpected symbol near '['\"."
-    Die Item-Snippets im `install/`-Ordner sind **Templates**, kein lauffähiges
-    Lua. Sie enden auf `.txt`, damit Escrow sie nicht kompiliert. Inhalt in deine
-    Inventar-Dateien kopieren — nicht `ensure`n.
-
-??? question "Wo füge ich die Items hinzu?"
-    Templates liegen im `install/`-Ordner: SQL für ESX, `qb_items.txt` für QBCore,
-    `items.txt` für ox_inventory. Die Item-Bilder zusätzlich in den Bilder-Ordner
-    deines Inventars kopieren.
-
 ## Nutzung & Berechtigungen
 
 ??? question "`/pr_settings` (der Editor) tut nichts."

@@ -27,15 +27,21 @@ und Mülltonnen-Durchsuchen als Nebenaktivität. ESX & QBCore.
 
 ## Items
 
-Standardmäßig werden zwei Items genutzt: `leere_tuete` (leere Tüte) und
-`tuete_schwarzgeld` (Schwarzgeld-Tüte). Templates liegen im `install/`-Ordner:
+Das Script nutzt standardmäßig zwei Items: `leere_tuete` (leere Tüte) und
+`tuete_schwarzgeld` (Schwarzgeld-Tüte).
 
-- **ESX:** passende `.sql` aus `install/sql/` importieren.
-- **QBCore:** Einträge aus `install/qbcore/qb_items.txt` in `qb-core/shared/items.lua` einfügen.
-- **ox_inventory:** Einträge aus `install/ox_inventory/items.txt` in `ox_inventory/data/items.lua` einfügen.
-- Die Item-Bilder (`leere_tuete.png`, `tuete_schwarzgeld.png`) in den Bilder-Ordner deines Inventars kopieren.
+!!! info "Items sind nicht enthalten"
+    Die Resource liefert **keine** Item-Definitionen oder -Bilder mit — lege die
+    beiden Items in deinem eigenen Inventarsystem an. So behältst du volle
+    Kontrolle über Icons, Gewichte und Metadaten.
 
-Die Item-Namen lassen sich in `Config.Payphone.bagItem` / `rewardItem` und `Config.Fence.sellItem` ändern.
+- **ESX:** zwei benutzbare Items mit diesen Namen in deiner Inventar-/Datenbank anlegen.
+- **QBCore:** zwei Einträge in `qb-core/shared/items.lua` ergänzen.
+- **ox_inventory:** zwei Einträge in `ox_inventory/data/items.lua` ergänzen.
+- Eigene Item-Bilder in den Bilder-Ordner deines Inventars legen.
+
+**Stattdessen vorhandene Items nutzen:** über `Config.Payphone.bagItem` /
+`rewardItem` und `Config.Fence.sellItem` auf Items umbiegen, die du schon hast.
 
 ## Konfigurations-Überblick (`config.lua`)
 

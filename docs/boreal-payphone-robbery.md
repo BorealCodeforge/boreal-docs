@@ -27,15 +27,21 @@ side activity. ESX & QBCore.
 
 ## Items
 
-Two items are used by default: `leere_tuete` (empty bag) and
-`tuete_schwarzgeld` (dirty-money bag). Templates are in the `install/` folder:
+The script uses two items by default: `leere_tuete` (empty bag) and
+`tuete_schwarzgeld` (dirty-money bag).
 
-- **ESX:** import the matching `.sql` from `install/sql/`.
-- **QBCore:** add the entries from `install/qbcore/qb_items.txt` to `qb-core/shared/items.lua`.
-- **ox_inventory:** add the entries from `install/ox_inventory/items.txt` to `ox_inventory/data/items.lua`.
-- Copy the item images (`leere_tuete.png`, `tuete_schwarzgeld.png`) into your inventory's image folder.
+!!! info "Items are not bundled"
+    The resource does **not** ship item definitions or images — add the two items
+    to your own inventory system. This keeps you in full control of icons, weights
+    and metadata.
 
-You can change the item names in `Config.Payphone.bagItem` / `rewardItem` and `Config.Fence.sellItem`.
+- **ESX:** add two usable items with these names to your inventory/database.
+- **QBCore:** add two entries to `qb-core/shared/items.lua`.
+- **ox_inventory:** add two entries to `ox_inventory/data/items.lua`.
+- Provide your own item images in your inventory's image folder.
+
+**Reuse existing items instead:** rename them via `Config.Payphone.bagItem` /
+`rewardItem` and `Config.Fence.sellItem` to point at items you already have.
 
 ## Configuration overview (`config.lua`)
 
