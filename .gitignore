@@ -1,6 +1,9 @@
 # MkDocs build output
 site/
 
+# Local backups of original full-size assets
+docs/assets/originals/
+
 # Python
 .venv/
 venv/

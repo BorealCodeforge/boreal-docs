@@ -1,7 +1,7 @@
 # Boreal Codeforge Docs
 
 <div class="bcf-hero-banner" markdown>
-![Boreal Codeforge](../assets/banner.png)
+![Boreal Codeforge](../assets/banner.jpg)
 </div>
 
 <span class="bcf-tagline">Code. Craft. Create.</span>
