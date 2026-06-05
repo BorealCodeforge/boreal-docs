@@ -1,0 +1,83 @@
+site_name: Boreal Codeforge Docs
+site_description: Documentation for Boreal Codeforge FiveM resources — Code. Craft. Create.
+site_author: Boreal Codeforge
+# Set this to your real docs URL once the GitHub Pages site is live:
+site_url: https://YOURNAME.github.io/boreal-docs/
+
+theme:
+  name: material
+  language: en
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  font:
+    text: Lato
+    code: JetBrains Mono
+  palette:
+    scheme: slate
+    primary: custom
+    accent: custom
+  features:
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+extra_css:
+  - stylesheets/boreal.css
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: folder
+      reconfigure_material: true
+      reconfigure_search: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: de
+          name: Deutsch
+          build: true
+          nav_translations:
+            Home: Start
+            Getting Started: Erste Schritte
+            Boreal Core: Boreal Core
+            Payphone Robbery: Payphone Robbery
+            Config Reference: Config-Referenz
+            FAQ: FAQ
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
+  - pymdownx.emoji
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Boreal Core: boreal-core.md
+  - Payphone Robbery: boreal-payphone-robbery.md
+  - Config Reference: config-reference.md
+  - FAQ: faq.md
+
+extra:
+  social:
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/YOURINVITE
+      name: Discord
