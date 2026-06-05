@@ -127,18 +127,33 @@ body {
   border-radius: 10px;
 }
 
-/* Admonitions — copper accent */
+/* Admonitions & FAQ details — unify ALL types to the copper palette
+   (overrides Material's bright per-type colours: blue note, green tip/question…) */
 .md-typeset .admonition,
 .md-typeset details {
   background: var(--bcf-panel);
-  border: 1px solid var(--bcf-border);
+  border: 1px solid var(--bcf-border) !important;
   border-radius: 12px;
   box-shadow: var(--bcf-shadow);
 }
 
+/* Title / summary bar */
 .md-typeset .admonition-title,
 .md-typeset summary {
-  background: rgba(201, 120, 43, 0.12);
+  background: rgba(201, 120, 43, 0.10) !important;
+  border-color: var(--bcf-border) !important;
+  color: var(--bcf-text);
+}
+
+/* The little type icon (pencil, flame, "?" …) → copper instead of bright colours */
+.md-typeset .admonition-title::before,
+.md-typeset summary::before {
+  background-color: var(--bcf-gold) !important;
+}
+
+/* The FAQ fold/unfold chevron on the right → copper */
+.md-typeset details > summary::after {
+  background-color: var(--bcf-gold) !important;
 }
 
 /* Buttons */
