@@ -43,6 +43,28 @@ Das Script nutzt standardmäßig zwei Items: `leere_tuete` (leere Tüte) und
 **Stattdessen vorhandene Items nutzen:** über `Config.Payphone.bagItem` /
 `rewardItem` und `Config.Fence.sellItem` auf Items umbiegen, die du schon hast.
 
+## Anpassung (Branding & Bilder)
+
+Die Payphone-UI-Bilder bleiben **offen und editierbar** (escrow-ignored) – so
+passt du das Script an dein Server-Branding an. Ein eventuelles Logo steckt in
+diesen Bildern – tausch einfach das Bild, um das Branding zu ändern.
+
+- `html/telefonzelle.png` — Telefonzellen-Design **1**
+- `html/telefonzelle2.png` — Telefonzellen-Design **2**
+
+**Bestehendes Design austauschen** (am einfachsten):
+
+1. Datei in `html/` durch dein eigenes Bild ersetzen – **gleicher Dateiname** (PNG empfohlen).
+2. Design im Spiel über `/pr_settings` → *Telefonzelle → Design* wählen, oder in der `config.lua`:
+   ```lua
+   Config.Payphone.image = "telefonzelle.png" -- oder "telefonzelle2.png"
+   ```
+3. Resource neu starten.
+
+**Komplett neues Design** (eigener Dateiname): `mydesign.png` in `html/` legen,
+in der `fxmanifest.lua` **sowohl** im `files {}`- als auch im `escrow_ignore`-Block
+ergänzen, dann `Config.Payphone.image = "mydesign.png"` setzen.
+
 ## Konfigurations-Überblick (`config.lua`)
 
 | Bereich | Wichtige Optionen |

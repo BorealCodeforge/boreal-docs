@@ -43,6 +43,28 @@ The script uses two items by default: `leere_tuete` (empty bag) and
 **Reuse existing items instead:** rename them via `Config.Payphone.bagItem` /
 `rewardItem` and `Config.Fence.sellItem` to point at items you already have.
 
+## Customization (branding & images)
+
+The payphone UI images are **open and editable** (escrow-ignored), so you can
+rebrand the script to fit your server. Any logo is baked into these images —
+just replace the image to change the branding.
+
+- `html/telefonzelle.png` — payphone design **1**
+- `html/telefonzelle2.png` — payphone design **2**
+
+**Swap an existing design** (easiest):
+
+1. Replace the file in `html/` with your own image, keeping the **same filename** (PNG recommended).
+2. Pick the design in-game via `/pr_settings` → *Payphone → Design*, or in `config.lua`:
+   ```lua
+   Config.Payphone.image = "telefonzelle.png" -- or "telefonzelle2.png"
+   ```
+3. Restart the resource.
+
+**Add a brand-new design** (custom filename): drop `mydesign.png` into `html/`,
+add it to **both** the `files {}` and `escrow_ignore` blocks in `fxmanifest.lua`,
+then set `Config.Payphone.image = "mydesign.png"`.
+
 ## Configuration overview (`config.lua`)
 
 | Section | Key options |
