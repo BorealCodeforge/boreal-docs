@@ -52,6 +52,7 @@ plugins:
             Getting Started: Erste Schritte
             Boreal Core: Boreal Core
             Payphone Robbery: Payphone Robbery
+            Chop Job: Chop Job
             Config Reference: Config-Referenz
             FAQ: FAQ
 
@@ -76,6 +77,7 @@ nav:
   - Getting Started: getting-started.md
   - Boreal Core: boreal-core.md
   - Payphone Robbery: boreal-payphone-robbery.md
+  - Chop Job: boreal-chopjob.md
   - Config Reference: config-reference.md
   - FAQ: faq.md
 
